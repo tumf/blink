@@ -10,4 +10,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
-      run: cd blink && ./get_frameworks.sh
+      run: ./get_frameworks.sh
